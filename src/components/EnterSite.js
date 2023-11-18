@@ -1,13 +1,34 @@
-import React from 'react'
+import React from 'react';
 
 
 import './enterSite.css';
 
 
-function EnterSite({ bgImgUrl }) {
+function EnterSite({ bgImgUrl, bgImgUrlMobile }) {
+
+  // const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  // useEffect(() => {
+
+  //   const handleResize = () => {
+  //     setIsMobile(window.innerWidth < 768);
+  //   };
+
+  //   // Add event listener for window resize
+  //   window.addEventListener('resize', handleResize);
+
+  //   // Remove event listener when component is unmounted
+  //   return () => {
+  //     window.removeEventListener('resize', handleResize);
+  //   };
+
+  // }, []);
 
   const enterStyle = {
-      backgroundImage: `url(${bgImgUrl})`,
+
+      //insert css vars to call the right bg image depend on screen 
+      '--bg-img-desktop': `url(${bgImgUrl})`,
+      '--bg-img-mobile': `url(${bgImgUrlMobile})`,
   };
 
   return (

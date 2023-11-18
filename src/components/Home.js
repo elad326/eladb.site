@@ -8,7 +8,7 @@ function Home() {
   return (
     <>
       <Header/>
-        <EnterSite bgImgUrl="/assets/images/Banner.png"/>
+        <EnterSite bgImgUrl="/assets/images/Banner.png" bgImgUrlMobile="/assets/images/Mobile/Banner-mobile.png"/>
 
       <Footer/>
     </>
