@@ -10,7 +10,34 @@ section.site-enter{
     background-size: cover;
     height: 100vh;
     padding: 100px 40px;
+    margin-top: 128px;
+}
 
+section.site-enter h1,
+section.site-enter h2,
+section.site-enter p{
+    color: #fff;
+    text-align: center;
+}
+
+div.enter-site-text{
+    padding-top: 50px;
+    line-height: 2;
+}
+
+section.site-enter h1{
+    font-size: 44px;
+}
+
+section.site-enter p{
+    font-size: 26px;
+    width: 47%;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+section.site-enter h2{
+    font-size: 31px;
 }
 
 @media only screen and (max-width: 768px){
