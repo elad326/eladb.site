@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header.site-header{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.3);
+    padding: 30px 50px;
+}
+
+div.header-links a:nth-child(1){
+    background-image: url('../../public/assets/images/facebook_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    width: 260px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 15px;
+    padding: 3px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-position: center center;
+    font-size: 14px;
+}
+
+div.header-links a:nth-child(2){
+    background-image: url('../../public/assets/images/learn_with_elad.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    color: #fff;
+    width: 260px;
+    height: 30px;
+    padding: 5px;
+    margin-left: 15px;
+    padding: 3px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    background-position: center center;
+    font-size: 14px;
+}
+
+div.site_logo_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+header.site-header ul{
+    list-style: none;
+    display: flex;
+}
+
+header.site-header ul li{
+    margin-right: 20px;
+    position: relative;
+}
+
+header.site-header ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 3px;
+}
+
+header.site-header ul li:nth-child(7) a{
+    background-color: #0082bb;
+    color: #fff;
+    padding: 3px 15px;
+}
+
+header.site-header ul li a:hover{
+    background-color: #f11e8f;
+    color: #fff;
+    transition: background-color 1s;
+}
+
+header.site-header ul li a:before{
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: -4px;
+    width: 8px;
+    height: 8px;
+    border-top: 3px solid #f11e8f;
+    border-right: 3px solid #f11e8f;
+    transition: 1s;
+    opacity: 0;
+}
+
+header.site-header ul li a:after{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: -4px;
+    width: 8px;
+    height: 8px;
+    border-bottom: 3px solid #f11e8f;
+    border-left: 3px solid #f11e8f;
+    transition: 1s;
+    opacity: 0;
+}
+
+header.site-header ul li:hover a:before{
+    top: -9px;
+    right: -9px;
+    opacity: 1;
+}
+
+header.site-header ul li:hover a:after{
+    bottom: -9px;
+    left: -9px;
+    opacity: 1;
+}
+
+img.site-logo{
+    width: 85px;
+    position: absolute;
+    bottom: 34px;
+    left: 5%;
+}
+
+div.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+div.mobile-menu span{
+    width: 30px;
+    background-color: black;
+    height: 3px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+div.mobile-menu span:nth-child(2){
+    position: relative;
+    right: 7px;
+}
+
+div.mobile-menu span:nth-child(3){
+    position: relative;
+    right: 14px;
+}
+
+@media (max-width: 1175px){
+
+    div.mobile-menu{
+        display: block;
+    }
+
+    nav.site-menu{
+        display: none;
+    }
+
+    nav.show_menu{
+        opacity: 1;
+        transition: opacity 1s;
+        display: block;
+        position: absolute;
+        top: 170px;
+        right: 0;
+        text-align: center;
+        left: 0;
+    }
+
+    div.site_logo_menu{
+        display: block;
+    }
+
+    header.site-header ul{
+        display: block;
+    }
+    
+    header.site-header ul li{
+        margin: 0px;
+    }
+
+    header.site-header ul li a{
+        display: block;
+        border-bottom: 1px dashed black;
+        padding-bottom: 5px;
+    }
+
+}
+
+@media (max-width: 768px){
+
+    div.header-links{
+        position: relative;
+        right: -51px;
+        top: -19px;
+    }
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.site-enter{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding: 100px 40px;
+
+}
+
+@media only screen and (max-width: 768px){
+    section.site-enter{
+        padding: 60px 40px;
+    }
+    
+}
