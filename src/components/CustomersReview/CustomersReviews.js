@@ -1,6 +1,6 @@
 import React from 'react';
 import './customers-reviews.css';
-import YouTubeVideo from '../components/CustomersReview/YouTubeVideo';
+import YouTubeVideo from './YouTubeVideo';
 
 const CustomersReviews = () => {
   return (

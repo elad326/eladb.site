@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Menuitem(props) {
   return (
         <>
-            <li><a href="#">{props.item}</a></li>
+            <li><Link href="/">{props.item}</Link></li>
         </>  
   )
 }
