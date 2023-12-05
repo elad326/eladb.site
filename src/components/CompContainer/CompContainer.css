@@ -1,0 +1,11 @@
+
+
+div.site-container{
+    padding: 50px 100px;
+    background-color: #fbf7f4;
+}
+
+div.site-container-bg-img{
+    background: url('../../../public/assets/images/About-bg.png') no-repeat center center;
+    background-size: cover;
+}
