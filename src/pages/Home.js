@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
-import Footer from './Footer';
-import EnterSite from './EnterSite';
-import CustomersReviews from './CustomersReview/CustomersReviews';
-import CompContainer from './CompContainer/CompContainer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import EnterSite from '../components/EnterSite';
+import CustomersReviews from './CustomersReviews';
+import CompContainer from '../components/CompContainer/CompContainer';
 import About from './About';
 
 
