@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Menuitem from './Menuitem';
+import { Link } from 'react-router-dom';
+
 
 const menu_ar = [
   {
@@ -57,9 +59,9 @@ function SiteMenu() {
         </ul>
       </nav>
 
-      <a href="http://localhost:3000/">
+      <Link to="/">
         <img src="/assets/images/logo.png" alt="לוגו האתר" className="site-logo" />
-      </a>
+      </Link>
     </div>
   );
 }

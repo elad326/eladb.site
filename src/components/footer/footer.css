@@ -1,0 +1,22 @@
+
+
+footer.site-footer{
+    background: linear-gradient(to left, #07405d, #1d90cb);
+    display: flex;
+    align-items: center;
+    padding: 17px 45px;
+    color: #fff;
+}
+
+footer.site-footer img{
+    width: 46px;
+}
+
+footer.site-footer p{
+    margin-inline-start: auto;
+}
+
+footer.site-footer a{
+    color: #fff;
+    margin-right: 20px;
+}

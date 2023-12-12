@@ -4,7 +4,34 @@
     box-sizing: border-box;
 }
 
+section.customers-reviews{
+    margin-top: 117px;
+}
+
 section.customers-reviews h2{
     text-align: center;
     font-size: 34px;
+}
+
+div.yuotube-wrap{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 40px;
+    margin-top: 30px;
+    /* flex-wrap: wrap; */
+}
+
+div.yuotube-wrap .youtube-player{
+    flex-basis: 33%;
+    aspect-ratio: 16 / 9;
+    width: 33%;
+    height: auto;
+}
+
+/* youtube componenet */
+div.cover-img{
+    background: url('images/youtube-bg.png') no-repeat center center;
+    background-size: cover;
+    
 }

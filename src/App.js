@@ -7,6 +7,7 @@ import Works from './pages/Works';
 import CustomerReviewsPage from './pages/CustomerReviewsPage';
 import WhatBuild from './pages/WhatBuild';
 import Blog from './pages/Blog';
+import AccessabilityStatment from './pages/AccessabilityStatment';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="works" element={<Works/>} />
             <Route path="whatBuild" element={<WhatBuild/>} />
             <Route path="blog" element={<Blog/>} />
+            <Route path="accessability" element={<AccessabilityStatment/>} />
           </Route>            
         </Routes>
     </BrowserRouter>
