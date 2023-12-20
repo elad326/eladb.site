@@ -8,6 +8,7 @@ import CustomerReviewsPage from './pages/CustomerReviewsPage';
 import WhatBuild from './pages/WhatBuild';
 import Blog from './pages/Blog';
 import AccessabilityStatment from './pages/AccessabilityStatment';
+import './App.css';
 
 
 function App() {
