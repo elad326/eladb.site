@@ -1,0 +1,35 @@
+
+
+section.wrap-about{
+    display: grid;
+    grid-template-columns: 47% 53%;
+    gap: 60px;
+    margin-top: 125px;
+    color: #fff;
+    font-family: "Heebo", Sans-serif;
+}
+
+section.wrap-about h1{
+    font-size: 39px;
+    font-weight: 800;
+}
+
+section.wrap-about p{
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+@media (max-width: 900px){
+    section.wrap-about{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    section.wrap-about img{
+        width: 100%;
+        max-width: 300px;
+    }
+}

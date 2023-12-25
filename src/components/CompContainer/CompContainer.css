@@ -9,3 +9,9 @@ div.site-container-bg-img{
     background: url('../../../public/assets/images/About-bg.png') no-repeat center center;
     background-size: cover;
 }
+
+@media (max-width: 900px){
+    div.site-container{
+        padding: 20px;
+    }
+}

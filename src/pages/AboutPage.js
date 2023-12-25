@@ -1,12 +1,15 @@
 import React from 'react';
 import CompContainer from '../components/CompContainer/CompContainer';
-import About from '../components/About';
-
+import About from '../components/About/About';
+import {aboutText, imgUrl}  from '../components/About/aboutText';
 
 function AboutPage() {
+
+
+
   return (
     <CompContainer containerType ='bg-img'>
-        <About/>
+        <About title="אודות" text={aboutText} imgUrl={imgUrl}/>
     </CompContainer>
   )
 }
