@@ -1,0 +1,31 @@
+
+
+section.wrap-works{
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+section.wrap-works h1{
+    font-size: 34px;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 600;
+}
+
+div.examples{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+div.examples img{
+    width: 100%;
+}
+
+div.examples h4{
+    font-size: 19px;
+    font-weight: 600;
+    margin: 15px auto;
+}

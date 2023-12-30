@@ -76,7 +76,7 @@ header.site-header ul li a{
     padding: 3px;
 }
 
-header.site-header ul li:nth-child(7) a{
+header.site-header ul li:last-child a{
     background-color: #0082bb;
     color: #fff;
     padding: 3px 15px;
