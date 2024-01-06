@@ -25,6 +25,10 @@ const menu_ar = [
     href: '/whatBuild',
   },
   {
+    label: 'צור קשר',
+    href: '/contact',
+  },
+  {
     label: 'הבלוג שלנו',
     href: '/blog',
   },

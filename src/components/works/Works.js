@@ -6,7 +6,7 @@ import './works.css';
 const Works = () => {
   return (
     <section className='wrap-works'>
-        <h1>עבודות לדוגמא</h1>
+        <h1 className='page-header'>עבודות לדוגמא</h1>
 
         <div className='examples'>
           {examlpes.map((item) => (

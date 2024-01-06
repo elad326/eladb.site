@@ -9,7 +9,7 @@ const CustomersReviews = () => {
   return (
     <>
       <section className='customers-reviews'>
-          <h2>מה הלקוחות שלנו מספרים ?</h2>
+          <h1 className='page-header'>מה הלקוחות שלנו מספרים ?</h1>
           <div className='yuotube-wrap'>
             <YouTubeVideo videoUrl="https://www.youtube.com/embed/gmxdqaxZ5Ag?si=c2QfEHbzWecjP9ma"/>
             <YouTubeVideo videoUrl="https://www.youtube.com/embed/PnnYRSo3X1U?si=mm-uIMa-O_fHQzX5"/>
