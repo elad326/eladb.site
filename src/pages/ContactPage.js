@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Contact from '../components/contact/Contact';
+import CompContainer from '../components/CompContainer/CompContainer';
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <CompContainer>
+        <Contact/>
+    </CompContainer>
   )
 }
 
