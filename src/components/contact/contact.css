@@ -40,20 +40,29 @@ div.wrap-contact input[type="button"]{
     width: 100%;
     margin: 0;
     font-size: 16px;
+    cursor: pointer;
 }
 
 
 span.err-red{
-    color: black;
-    font-size: 10px;
-    text-align: right;
     background-color: rgb(243, 163, 163);
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
 }
 
 span.success-green{
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
     color: black;
-    font-size: 10px;
-    text-align: right;
     background-color: rgb(163, 239, 182);
 }
 

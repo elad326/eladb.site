@@ -47,10 +47,9 @@ const Contact = () => {
           <input type='text' placeholder='זמן נח לחזרה' ref={user_when_back} name="user_when_back"/>
 
           <div className='wrap-submit'>
-            <input type="button" name="submit_contact" value="שלחו פרטים לשיחה ללא התחייבות" onClick={sendEmail}/> 
+            <input type="button" name="contact_submit" value="שלחו פרטים לשיחה ללא התחייבות" onClick={sendEmail}/> 
           </div>
            
-
           {error && 
             <span className='err-red'>{error}</span>
           }

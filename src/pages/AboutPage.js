@@ -5,8 +5,6 @@ import {aboutText, imgUrl}  from '../components/About/aboutText';
 
 function AboutPage() {
 
-
-
   return (
     <CompContainer containerType ='bg-img'>
         <About title="אודות" text={aboutText} imgUrl={imgUrl}/>
